@@ -10,46 +10,155 @@
   <title>Hamburgueria</title>
 </head>
 
-<body>
-  <header>
-    <h1>Conheça nossos Hamburgueres Saborosos!</h1>
-  </header>
-  <section class="container">
-    <ul class="list" data-tab="tab">
+<body id="home">
+  <nav class="navbar">
+    <a href="#home">
+      <img src="img/foto.png" class="brand" alt="">
+    </a>
+    <button class="btn-menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav">
       <li>
-        <p><strong>1</strong>- X - Burguer</p>
+        <a href="#home">Home</a>
       </li>
-      <li>
-        <p><strong>2</strong> - Duplo Burger Melt</p>
-      </li>
-      <li>
-        <p><strong>3</strong> - Super Salada Burguer</p>
-      </li>
-      <li>
-        <p><strong>4</strong> - Duplo Cheeseburguer</p>
-      </li>
-      <li>
-        <p><strong>5</strong> - Super Chicken</p>
-      </li>
+      <li><a href="#sobre">Quem Somos</a></li>
+      <li><a href="#cardapio">Cardápio</a></li>
+      <li><a href="#contatos">Contatos</a></li>
     </ul>
-    <div class="burguers" data-tab="content">
-      <div>
-        <img src="img/burguer1.png" alt="" class="img-burguers">
+  </nav>
+  <section class="video-container">
+    <div class="background">
+      <img src="img/foto2.png" alt="">
+      <h1>O verdadeiro BRASEIRO. Desde 2018 </h1>
+      <div class="header-links">
+        <a href="#cardapio" class="btn">Conheça nosso cardápio</a>
+        <a href="#contatos" class="btn btn-alt">Faça agora seu pedido</a>
       </div>
-      <div>
-        <img src="img/burguer2.png" alt="" class="img-burguers">
-      </div>
-      <div>
-        <img src="img/burguer3.png" alt="" class="img-burguers">
-      </div>
-      <div>
-        <img src="img/burguer4.png" alt="" class="img-burguers">
-      </div>
-      <div>
-        <img src="img/burguer5.png" alt="" class="img-burguers">
+    </div>
+    <video autoplay muted loop class="myVideo">
+      <source src="img/video.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section class="container" id="sobre">
+    <div>
+      <h2>Aqui é na brasa...</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae labore obcaecati voluptatum dicta tenetur adipisci ipsum, tempora sunt? Accusamus earum commodi quaerat iure aliquid error ab laudantium voluptatibus culpa amet.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae labore obcaecati voluptatum dicta tenetur adipisci ipsum, tempora sunt? Accusamus earum commodi quaerat iure aliquid error ab laudantium voluptatibus culpa amet.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae labore obcaecati voluptatum dicta tenetur adipisci ipsum, tempora sunt? Accusamus earum commodi quaerat iure aliquid error ab laudantium voluptatibus culpa amet
+      </p>
+      <a href="" class="btn">Conheça nosso cardápio</a>
+    </div>
+    <img class="image" src="img/hamburguer-voando.png" alt="">
+  </section>
+  <section class="cardapio" id="cardapio">
+    <h2>Veja agora nosso delicioso cardápio...</h2>
+    <div class="container-list">
+      <ul class="list" data-tab="tab">
+        <li>
+          <div>
+            <span class="id-list">1</span>
+            <p> - X - Burguer </p> <span class="price">R$18,99</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="id-list">2</span>
+            <p> - Duplo Burger Melt</p> <span class="price">R$24,99</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="id-list">3</span>
+            <p> - Super Salada Burguer</p> <span class="price">R$19,99</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="id-list">4</span>
+            <p> - Duplo Cheeseburguer</p> <span class="price">R$22,99</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="id-list">5</span>
+            <p> - Super Chicken</p> <span class="price">R$18,99</span>
+          </div>
+        </li>
+      </ul>
+      <div class="burguers" data-tab="content">
+        <div>
+          <img src="img/burguer1.png" alt="" class="img-burguers">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati suscipit nemo repellat ipsa sit impedit, magni ea cumque omnis eius tempora fugit illum magnam?</p>
+        </div>
+        <div>
+          <img src="img/burguer2.png" alt="" class="img-burguers">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati suscipit nemo repellat ipsa sit impedit, magni ea cumque omnis eius tempora fugit illum magnam?</p>
+        </div>
+        <div>
+          <img src="img/burguer3.png" alt="" class="img-burguers">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati suscipit nemo repellat ipsa sit impedit, magni ea cumque omnis eius tempora fugit illum magnam?</p>
+        </div>
+        <div>
+          <img src="img/burguer4.png" alt="" class="img-burguers">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati suscipit nemo repellat ipsa sit impedit, magni ea cumque omnis eius tempora fugit illum magnam?</p>
+        </div>
+        <div>
+          <img src="img/burguer5.png" alt="" class="img-burguers">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati suscipit nemo repellat ipsa sit impedit, magni ea cumque omnis eius tempora fugit illum magnam?</p>
+        </div>
       </div>
     </div>
   </section>
+  <section class="container-contact" id="contatos">
+    <div class="contacts">
+      <h2>Tá espernado o que? Peça Já!</h2>
+      <p>Ligue agora para o número <a href="">(21)97594-5388</a>, ou faça o pedido nos links abaixo:</p>
+      <div class="group-links">
+        <a href="">
+          <img src="img/ifood.png" alt="">
+        </a>
+        <a href="">
+          <img src="img/uber-eats.png" alt="">
+        </a>
+        <a href="">
+          <img src="img/whatsapp.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58883.32915031835!2d-43.50037375731151!3d-22.72050638500524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf95c9b1c81b3def8!2sBraseiro%20Hamburgueria%20Artesanal!5e0!3m2!1spt-BR!2sbr!4v1616679368088!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <img src="img/foto2.png" alt="">
+      <ul class="funcionamento">
+        <h3>Horário de Funcionamento</h3>
+        <li>Segunda-feira: 19:30 – 23:45</li>
+        <li>Terça-feira: <strong>Fechado</strong></li>
+        <li>Quarta-feira: <strong>Fechado</strong></li>
+        <li>Quinta-feira: 19:30 – 23:45</li>
+        <li>Sexta-feira: 19:30 – 23:45</li>
+        <li>Sábado: 19:30 – 23:45</li>
+        <li>Domingo: 19:30 – 23:45</li>
+      </ul>
+      <ul class="social">
+        <h3>Redes sociais</h3>
+        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="end-footer">
+    <p>R. Carmita Henrique de Abreu, 550 - Ponto Chic, Nova Iguaçu - RJ, 26032-730</p>
+    <p>Braseiro - Hamburgueres Artesanais. Todos os direitos reservados 2021 &copy;</p>
+  </div>
+  <script src="https://kit.fontawesome.com/4783fe1c33.js" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </body>
 
