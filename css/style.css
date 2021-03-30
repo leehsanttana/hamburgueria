@@ -308,14 +308,14 @@ img {
   background-color: var(--orange);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 700px;
+  grid-template-rows: auto;
   gap: 100px;
-  align-items: center;
   align-self: center;
 }
 
 .contacts {
   padding: 100px;
+  height: 350px;
   background-color: var(--black);
   border-radius: 0 60px 60px 0;
   box-shadow: -5px 5px 30px 5px rgba(255, 153, 0, 0.09);
@@ -494,7 +494,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     padding: 0 60px;
   }
@@ -570,6 +570,10 @@ img {
 
   .cardapio h2 {
     padding-left: 60px;
+  }
+
+  .list li.active {
+    width: 90%;
   }
 
   .list li div {
@@ -673,10 +677,6 @@ img {
     padding-left: 30px;
   }
 
-  .list li.active {
-    width: 90%;
-  }
-
   .list li div {
     padding: 2rem;
     margin-left: 30px;
@@ -699,7 +699,7 @@ img {
   }
 
   .contacts {
-    padding: 80px 30px;
+    padding: 60px 30px;
     margin-right: 0;
     border-radius: 0;
   }
@@ -748,6 +748,19 @@ img {
 }
 
 @media only screen and (max-width: 400px) {
+  .background img {
+    width: 80%;
+    margin-top: 150px;
+  }
+
+  .container {
+    padding: 60px 30px;
+  }
+
+  .cardapio {
+    padding: 60px 0;
+  }
+
   .list li div {
     padding: 2rem;
     margin-left: 0;
